@@ -9,13 +9,13 @@ Logic For The Game:
 The snake eats the apple and its size is getting bigger.If you collide with the boundaries you will Die...Thats it Simple.
 
 Instructions :
-1.Use Arrow keys(Up,Down,Right or Left) to navigate the snake.
-2.Other keys as directed by the message.
+1. Use Arrow keys(Up,Down,Right or Left) to navigate the snake. 
+2. Other keys as directed by the message.
 
 Requirements :
-1.Any Python IDE(like Pycharm,VScode,Coding blocks etc.)
-2.Pyhton installed on your machine(You can download it at www.python.org)
-3.Pygame Module installed (You can install it Either by command pip install pygame on cmd OR by installing it in interpreter)
+1. Any Python IDE(like Pycharm,VScode,Coding blocks etc.)
+2. Pyhton installed on your machine(You can download it at www.python.org)
+3. Pygame Module installed (You can install it Either by command pip install pygame on cmd OR by installing it in interpreter)
 
 Modification in Code :
 You can modify it freely,But after modifying please let me know about the modification.You can Mention me in your instagram story

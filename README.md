@@ -1,0 +1,2 @@
+# Snake-Game-in-Python
+Snake is a Python powered Game script designed for Beginners to learn python game programming.The source code has meaningful comments which lets the programmer know about the working of different functions in pygame modeule.You can freely modify the source code and make  advancements to the game.I have also putted some challenges in the code(Some code is not working ),You can fix that too.

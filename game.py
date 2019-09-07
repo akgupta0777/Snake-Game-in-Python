@@ -1,6 +1,7 @@
 import time  # Imported time for clock() which waits for some seconds
 import pygame # Main module for Game
 import random  # Imported for Randomly placing apple on screen
+#main programming goes from here.
 gameover = False
 pygame.init() # Initialise the gamescreen or pygame window
 gamescreen = pygame.display.set_mode((800, 600)) # Sets the screen resolution(800X600)
@@ -18,10 +19,10 @@ clock = pygame.time.Clock() # Created Object of clock()
 size=10
 direction = "Right"
 
-def msg_on_screen(msg,type): # renders text on screen
-    font = pygame.font.Font('freesansbold.ttf',30)
+def msg_on_screen(msg,type): # renders text on screen at the centre of the screen
+    font = pygame.font.Font('freesansbold.ttf',30)#created Font object
     Screen_text = font.render(msg,True,type)
-    textrect = Screen_text.get_rect()
+    textrect = Screen_text.get_rect()#Function for returning positioning of the centre position
     textrect.center = (400,300)
     gamescreen.blit(Screen_text,textrect)
 def msg_Normal(text,type,pos): # Normal Message That not to be centered can be rendered on any position
@@ -47,7 +48,6 @@ def introduction(): # Welcome Screen
     intro = True
     while intro:
         gamescreen.fill(White)
-
         msg_on_screen("Welcome", black)
         msg_Normal("To Snake Game",black,(400,350))
         msg_Normal("Press Space To Start", Blue,(400,400))
@@ -68,7 +68,7 @@ def introduction(): # Welcome Screen
                     About()
                 if events.key == pygame.K_SPACE:
                     gameloop()
-def About():
+def About():#Dont make any changes in this function.
     About = False
     gamescreen.fill(White)
     pygame.display.update()
@@ -86,7 +86,7 @@ def About():
                 if event.key == pygame.K_BACKSPACE:
                     introduction()
                     About = True
-def Score(score): #Renders Score
+def Score(score): #Renders Score on the screen
     scorefont = pygame.font.Font('freesansbold.ttf', 30)
     text = scorefont.render("Score : " + str(score), True, black)
     gamescreen.blit(text,(0,0))

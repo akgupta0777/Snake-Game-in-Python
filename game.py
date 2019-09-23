@@ -68,7 +68,7 @@ def introduction(): # Welcome Screen
                     About()
                 if events.key == pygame.K_SPACE:
                     gameloop()
-def About():#Dont make any changes in this function.
+def About():#Warning!!! :  Dont make any changes in this function.
     About = False
     gamescreen.fill(White)
     pygame.display.update()

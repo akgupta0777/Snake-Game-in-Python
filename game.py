@@ -78,7 +78,6 @@ def About():#Warning!!! :  Dont make any changes in this function.
         msg_Normal("Instagram : @abhaygupta1609",green,(400,150))
         msg_Normal("Email - Akgupta0777@gmail.com",pink,(400,200))
         msg_Normal("Press Backspace for Previous menu",Blue,(400,500))
-        msg_Normal("Call for any query - +919354942524",black,(400,300))
         pygame.display.flip()
         clock.tick(15)
         for event in pygame.event.get():

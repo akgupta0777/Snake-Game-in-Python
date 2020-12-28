@@ -25,7 +25,6 @@ Contact Us :
 Instagram - @abhaygupta1609
 Facebook - fb.com/akgupta077
 Email - Akgupta0777@gmail.com
-Whatsapp - +919910688734
 
 Raise an issue on my github if you are stuck at something.
 Date Created On :- 31 August 2019
